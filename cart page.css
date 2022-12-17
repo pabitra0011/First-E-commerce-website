@@ -1,0 +1,90 @@
+
+
+
+
+
+.cart-heading{
+    display: flex;
+   justify-content: space-evenly;
+   margin: 100px 100px 20px 100px;
+   
+   border: 1px solid red;
+   background-color: rgb(246, 114, 37);
+   border-radius: 20px;
+}
+.pirc{
+    display: flex;
+    /* flex-ali */
+}
+.prd{
+display: flex;
+align-self: flex-start;
+}
+
+.cart-container{
+    /* padding-bottom: 100px; */
+}
+.desc{
+    display: flex;
+    padding:  15px 5px;
+}
+
+.cart-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.cart-qty input{
+    /* padding-right: 20px; */
+   margin: 10px 80px 0 0;
+    width: 40px;
+}
+.cart-price{
+    padding-right: 120px;
+}
+
+
+
+.btn{
+    display: flex;
+   justify-content: end;
+   margin: 40px 350px 100px 0;
+   padding: 5px 20px;
+}
+.btn button{
+    padding: 10px;
+    cursor: pointer;
+    background-color:  rgb(236, 125, 34);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px red solid;
+    border-radius: 13px;
+}
+.btn button:hover{
+    background-color: rgb(244, 167, 33);
+}
+.subtotal{
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+    margin-right: 380px;
+    padding: 10px;
+}
+
+.prdt-img img{
+    cursor: pointer;
+}
+.prdtc-abut h3{
+padding: 0 0 10px 5px;
+}
+.prdtc-abut h4{
+    padding: 0 0 10px 5px;
+}
+.prdtc-abut a{
+    padding: 0 0 0px 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(227, 63, 63);
+}
