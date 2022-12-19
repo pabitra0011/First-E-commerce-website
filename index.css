@@ -454,7 +454,7 @@ text-decoration: solid;
 
 /* ----------------------------------- media querie for nav barj------------------------------------------------------- */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1000px){
 
     .front-page{
         /* background-color: aliceblue; */
